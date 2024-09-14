@@ -1,0 +1,323 @@
+body{
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* HEADER */
+header{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    color: black;
+
+    z-index: 1000;
+}
+
+nav{
+    float: right;
+    margin-right: 100px;
+    margin-top: 35px;
+}
+
+.current{
+    text-decoration: underline;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+   padding-left: 15px;
+}
+
+nav ul li a{
+    cursor: pointer;
+}
+
+
+nav ul li a:active{
+    opacity: 0.8;
+}
+
+.header-left{
+    float: left;
+    margin-left: 50px;
+    margin-top: 17px;
+    display: flex;
+}
+
+.header-left img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.header-left p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+/* HERO SECTION */
+#hero{
+    background-image: url(../IMAGE/1708170324067.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+
+.hero-writeup{
+    position: relative;
+    top: 300px;
+    text-align: center;
+}
+
+.hero-writeup h1{
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.gall{
+    margin-top: 10px;
+    background-color: white;
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.hero-writeup button{
+    text-align: center;
+    background-color: blue;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.hero-writeup button:hover{
+    opacity: 0.8;
+}
+
+.hero-writeup button:active{
+    box-shadow: 0 2px black;
+}
+
+/* --------------------------------------------------------------------GALLERY--------------------------------------------------------------------------------------------- */
+
+#photos{
+    width: 100%;
+    height: 800px;
+    background-color: bisque;
+}
+
+
+.photo{
+    margin: 0 auto;
+    background-color: chocolate;
+    border: 2px solid black;
+    width: 1200px;
+    height: 500px;
+    position: relative;
+    top: 100px;
+}
+
+.photo h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    padding-top: 20px;
+}
+
+.photo p{
+    font-size: small;
+    text-align: center;
+}
+
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+.images img{
+    height: 200px;
+    width: 200px;
+}
+
+.img-1{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid white;
+}
+
+.img-2{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid white;
+}
+
+.img-3{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid white;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+.but-1{
+    border: 2px solid black;
+    padding: 10px;
+    position: relative;
+    right: 38px;
+}
+
+.but-2{
+    border: 2px solid black;
+    padding: 10px;
+    position: relative;
+    right: 8px;
+}
+
+.but-3{
+    border: 2px solid black;
+    padding: 10px;
+    position: relative;
+    left: 25px;
+}
+
+.buttons button{
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    opacity: 0.8;
+}
+
+.buttons button:active{
+    opacity: 0.5;
+}
+
+/* ----------------------------------------------------------------------------ABOUT---------------------------------------------------------------------------------- */
+
+h2{
+    text-align: center;
+    color: gold;
+    font-size: 50px;
+}
+
+#about{
+    width: 100%;
+    height: 800px;
+    background-image: url(../IMAGE/1708170347317.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.about-img{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+
+.about-img img{
+    border:2px solid white;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.about-writeup{
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+
+.about-writeup p{
+    text-align: center;
+}
+
+
+/* -----------------------------------------------------------------CONTACT--------------------------------------------------------------------------------------- */
+#contact{
+    width: 100%;
+    height: 200px;
+}
+
+.contact-left{
+    width: 200px;
+    margin-left: 200px;
+}
+
+.contact-left h2{
+    padding-top: 90px;
+    padding-right: 2000px;
+}
+
+.contact-right{
+
+    float: right;
+    width: 500px;
+    min-height: 400px;
+    margin-right: 200px;
+    position: relative;
+    bottom: 500px;
+}
+
+.contact-right img{
+    width: 500px;
+}
+
+
+#f_name{
+    background-color: beige;
+    border: 2px solid black;
+    text-align: center;
+
+}
+#l_name{
+    background-color: beige;
+    border: 2px solid black;
+    text-align: center;
+
+}
+
+.l_name{
+    padding-left: 120px;
+}
+
+input[type=email]{
+    background-color: beige;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.sub{
+    border-radius:-190px;
+    background-color: beige;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.message{
+    border-radius:-190px;
+    background-color: beige;
+    border: 2px solid black;
+    text-align: left;
+    height: 100px;
+}
